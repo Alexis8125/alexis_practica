@@ -34,6 +34,12 @@
             display: inline-block;
             width: 30%;
         }
+        .service-card:hover{
+            transform: scale(1.1);
+            box-shadow: 0 0 10px 1px gray;
+            transition: all ease-in-out .8s;
+            cursor: pointer;
+        }
 
         .service-title {
             font-size: 20px;
@@ -59,11 +65,12 @@
             color: #ffffff;
             text-decoration: none;
             border-radius: 5px;
-            transition: background-color 0.3s ease;
         }
 
         .boton-volver:hover {
             background-color: #ff0000;
+            transition: all ease-in-out .8s;
+            cursor: pointer;
         }
         .service-card{
             background-color: #ffffff;
@@ -83,16 +90,19 @@
         <div class="service-card">
             <h2 class="service-title">Planificación de Comidas</h2>
             <p class="service-description">Creamos planes de comidas personalizados para ayudarte a llevar una dieta equilibrada.</p>
+            <a href="../HTML/subpaginas servicios/comidas.html">Ir a Planificación</a>
         </div>
         <!-- Servicio #2 -->
         <div class="service-card">
             <h2 class="service-title">Seguimiento de Ejercicios</h2>
             <p class="service-description">Lleva un registro de tu actividad física y recibe recomendaciones de entrenamiento.</p>
+            <a href="../HTML/subpaginas servicios/seguimiento.html">Ir a Seguimiento</a>
         </div>
         <!-- Servicio #3 -->
         <div class="service-card">
             <h2 class="service-title">Asesoramiento Nutricional</h2>
             <p class="service-description">Consulta con nuestros expertos en nutrición para obtener consejos y orientación personalizada.</p>
+            <a href="../HTML/subpaginas servicios/asesoramiento.html">Ir a Asesoramiento</a>
         </div>
     </section>
     <!-- Pie de pagina -->
